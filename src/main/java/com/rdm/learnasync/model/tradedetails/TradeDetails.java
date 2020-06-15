@@ -28,5 +28,4 @@ public class TradeDetails {
 
     @Column(name = "broker_name")
     private String brokerName;
-
 }

@@ -34,10 +34,6 @@ public class Trade {
             @JoinColumn(name = "stop_date", referencedColumnName = "stop_date")
     })
     private TradeDetails tradeDetails;
-//    private Set<TradeDetails> tradeDetails;
-
-//    @Column(name = "trade_num")
-//    private int tradeNum;
 
     @Column(name = "description")
     private String description;

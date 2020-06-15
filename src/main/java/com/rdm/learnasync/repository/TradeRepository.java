@@ -16,7 +16,7 @@ import java.util.List;
 
 @Repository
 public interface TradeRepository extends JpaRepository<Trade, TradePK> {
-    String QUERY = "select * " +
+    String QUERY = "select T.* " +
             "from trade T, trade_details TD " +
             "where T.fund = :fund " +
             "and T.cusip = :cusip " +
