@@ -1,0 +1,6 @@
+INSERT INTO public.trade_details (pos_date, stop_date, fund, cusip, trade_num, amount, broker_name) VALUES ('2020-01-01', '2999-12-31', 4179, 'BMS001', 1, 1000, 'Broker 1');
+INSERT INTO public.trade_details (pos_date, stop_date, fund, cusip, trade_num, amount, broker_name) VALUES ('2020-03-01', '2999-12-31', 4179, 'BMS001', 3, 3000, 'Broker 3');
+INSERT INTO public.trade_details (pos_date, stop_date, fund, cusip, trade_num, amount, broker_name) VALUES ('2020-06-01', '2999-12-31', 4179, 'BMS001', 6, 6000, 'Broker 6');
+INSERT INTO public.trade_details (pos_date, stop_date, fund, cusip, trade_num, amount, broker_name) VALUES ('2020-02-01', '2999-12-31', 4179, 'BMS001', 2, 2000, 'Broker 2');
+INSERT INTO public.trade_details (pos_date, stop_date, fund, cusip, trade_num, amount, broker_name) VALUES ('2020-05-01', '2999-12-31', 4179, 'BMS001', 5, 5000, 'Broker 5');
+INSERT INTO public.trade_details (pos_date, stop_date, fund, cusip, trade_num, amount, broker_name) VALUES ('2020-04-01', '2999-12-31', 4179, 'BMS001', 4, 4000, 'Broker 4');
